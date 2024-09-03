@@ -15,7 +15,6 @@
 (Chapter 1.4)
 
 **Python for Arithmetic**
-- As BAIT student, arithmetic or calculation is important. So instead of using "Hello, World!" as the first python program, let us use python as a calculator.
 - Python provides operators, which are special symbols that represent computations like addition and multiplication.
 - The operators +, -, * , and /  perform addition, subtraction, and multiplication, as in the following examples:
 	```python
@@ -204,7 +203,7 @@
 	         ^
 	SyntaxError: invalid syntax
 	```
-- There is an error, an invalid syntax. We cannot include *doubt quotation marks* in *doubt quotation marks*.
+- There is an error, an invalid syntax. We cannot include *double quotation marks* in *double quotation marks*.
 - Solutions
 	```python
 	>>> s = "'Hello!', he said."
