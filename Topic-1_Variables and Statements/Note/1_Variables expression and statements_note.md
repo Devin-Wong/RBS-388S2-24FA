@@ -336,6 +336,21 @@
 	print(f"{x} plus {y} equals {z}.")
 	```
 
+## 8. Practice Question
+Use `input` function to give show a prompt to 
+- tell the user the program can return the product of two numbers, and 
+- Let users input two numbers
+- At last, return the result.
+
+Following is the expected outcome.
+```{python}
+You can input two numbers. I will return the product the two numbers.
+Please input the first number: 2.3
+Please input the second number: 3.4
+2.3 times 3.4 equals 7.819999999999999.
+```
+
+
 ## Summing up
 - Arithmetic operators
 - Variables
