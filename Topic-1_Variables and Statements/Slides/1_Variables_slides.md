@@ -93,9 +93,9 @@ Use `input` function to give show a prompt to
 Following is the expected outcome.
 ```{python}
 You can input two numbers. I will return the product the two numbers.
-Please input the first number: 2.3
-Please input the second number: 3.4
-2.3 times 3.4 equals 7.819999999999999.
+Please input the first number: 2.6
+Please input the second number: 6.3
+2.6 times 6.3 equals 16.38.
 ```
 
 ---
