@@ -9,3 +9,5 @@ This is for Business Programming 2024 Fall.
 
 **Topic-2: Function**
 - [Note](Topic-2_Function/Note/2_Functions_note.md)
+- [Code](Topic-2_Function/Code)
+- [Slides](Topic-2_Function/Slides/2_Functions_slides.pdf)
