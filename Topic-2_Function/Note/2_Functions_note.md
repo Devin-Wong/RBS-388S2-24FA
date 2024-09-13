@@ -355,6 +355,50 @@ Table of Contents
 	```
 - In the code above, we *create a `main` function (means the main part of our code)*, in which `add()` function is called. However, we didn't use either `main()` or `add()` until Line 11. 
 
+## 8. Practice Questions
+1. Write a program to create a function `show_employee()` using the following conditions.
+	- It should accept the employee’s name and salary, and print both.
+	- If the salary is missing in the function call, then assign default value 9000 to salary.
+	
+	Given
+	
+	```python
+		showEmployee("Ben", 12000)
+		showEmployee("Jack")
+	```
+	Expected output:
+
+	```python
+		Name: Ben, salary: 12000
+
+		Name: Jack, salary: 9000
+	```
+
+2. What is the output of the following program?
+	```python
+	def outer_fun(a, b): 
+		square = a ** 2 
+		
+		# inner function 
+		def addition(a, b): 
+			return a + b 
+		
+		add = addition(a, b) 
+		
+		return add + 5 
+
+	result = outer_fun(5, 10) 
+	print(result)
+	```
+
+1. Calculate the area of a circle. The mathematical formula is $\pi r^2$, where $r$ denotes the radius, and $\pi$ is the mathematical constant, 3.14.
+	(1) create a function named `square`, which returns the squared value given a number.
+	(2) create a function named `area`, which returns the area of a circle given a radius. In this function, you need to call the `square` function defined in (1).
+	(3) Create a main function to orgnize the program. In the main function, print a sentence like 
+	- "The area of a circle with radius 1 is 3.14." if you put $r=2$, or 
+	- "The area of a circle with radius 2 is 12.56." if you put $r=2$.
+
+
 ## Summing up
 - `print()` function 
 - Arguments in `print()`
