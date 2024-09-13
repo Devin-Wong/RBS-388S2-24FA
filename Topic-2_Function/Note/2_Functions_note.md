@@ -14,8 +14,8 @@ Table of Contents
 [4.  Return values](#4--return-values)  
 [5. Variables and parameters are local](#5-variables-and-parameters-are-local)  
 [6. Stack diagrams and debugging](#6-stack-diagrams-and-debugging)  
-[7. Organizing our code by using `main()`](#7-organizing-our-code-by-using-main)
-
+[7. Organizing our code by using `main()`](#7-organizing-our-code-by-using-main)  
+[8. Practice questions](#8-practice-questions)  
 [Summing up](#summing-up)
 
 ## 1. Function structure
@@ -391,12 +391,15 @@ Table of Contents
 	print(result)
 	```
 
-1. Calculate the area of a circle. The mathematical formula is $\pi r^2$, where $r$ denotes the radius, and $\pi$ is the mathematical constant, 3.14.
-	(1) create a function named `square`, which returns the squared value given a number.
-	(2) create a function named `area`, which returns the area of a circle given a radius. In this function, you need to call the `square` function defined in (1).
-	(3) Create a main function to orgnize the program. In the main function, print a sentence like 
-	- "The area of a circle with radius 1 is 3.14." if you put $r=2$, or 
-	- "The area of a circle with radius 2 is 12.56." if you put $r=2$.
+3. Calculate the area of a circle. The mathematical formula is $\pi r^2$, where $r$ denotes the radius, and $\pi$ is the mathematical constant, 3.14.
+
+   1. create a function named `square`, which returns the squared value given a number.
+
+   2. create a function named `area`, which returns the area of a circle given a radius. In this function, you need to call the `square` function defined in (1).
+	
+   3. Create a main function to orgnize the program. In the main function, print a sentence like 
+      	- "The area of a circle with radius 1 is 3.14." if you put $r=1$, or 
+      	- "The area of a circle with radius 2 is 12.56." if you put $r=2$.
 
 
 ## Summing up
