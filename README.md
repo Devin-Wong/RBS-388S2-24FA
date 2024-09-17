@@ -11,3 +11,7 @@ This is for Business Programming 2024 Fall.
 - [Note](Topic-2_Function/Note/2_Functions_note.md)
 - [Code](Topic-2_Function/Code)
 - [Slides](Topic-2_Function/Slides/2_Functions_slides.pdf)
+
+**Topic-3: Conditionals**
+- [Note](Topic-3_Conditionals/Note/3_Conditionals.md)
+- [Slides](Topic-3_Conditionals/Slides/3_Conditionals-slides.pdf)
