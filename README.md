@@ -14,4 +14,5 @@ This is for Business Programming 2024 Fall.
 
 **Topic-3: Conditionals**
 - [Note](Topic-3_Conditionals/Note/3_Conditionals.md)
+- [Code](Topic-3_Conditionals/Code)
 - [Slides](Topic-3_Conditionals/Slides/3_Conditionals-slides.pdf)

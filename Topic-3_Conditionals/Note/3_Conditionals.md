@@ -13,8 +13,8 @@ Table of Contents
 [5. `and`，`or` in `if` statement](#5-and-or-in-if-statement)  
 [6.  Pythonic `if`](#6--pythonic-if)  
 [7. Application: recursion](#7-application-recursion)  
+[8. Practice questions](#8-practice-questions)  
 [Summing up](#summing-up)  
-[Practice questions](#practice-questions)
 
 
 ## 1. Boolean expressions
@@ -299,6 +299,17 @@ Table of Contents
 	- ...
 	- Until n=0, the execution of countdown begins with n=0, and since n is not greater than 0, it outputs the word, “end” and then returns.
 - The code is just like `for` loop we will learn later. 
+- Think about what's the output of the following program.
+	```python
+	def countdown(n):
+		if n <= 0:
+			print('end')
+		else:
+			countdown(n-1)
+			print(n)
+
+	countdown(4)
+	```
 
 ## 8. Practice questions
 
