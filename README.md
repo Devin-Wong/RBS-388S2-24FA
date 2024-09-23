@@ -16,3 +16,6 @@ This is for Business Programming 2024 Fall.
 - [Note](Topic-3_Conditionals/Note/3_Conditionals.md)
 - [Code](Topic-3_Conditionals/Code)
 - [Slides](Topic-3_Conditionals/Slides/3_Conditionals-slides.pdf)
+
+**Topic-4: Loops**
+- [Note](Topic-4_Loops/Note/4_Loop.md)
