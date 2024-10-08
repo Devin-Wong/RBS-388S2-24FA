@@ -19,3 +19,9 @@ This is for Business Programming 2024 Fall.
 
 **Topic-4: Loops**
 - [Note](Topic-4_Loops/Note/4_Loop.md)
+- [Code](Topic-4_Loops/Code)
+- [Slides](Topic-4_Loops/Slides/4_Loop-slides.pdf)
+
+**Topic-5: Strings**
+- [Note](Topic-5_Strings/Note/5_Strings.md) 
+- [Slides](Topic-5_Strings/Slides/5_Strings-slides.pdf)
