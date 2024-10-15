@@ -1,5 +1,5 @@
 s = "rutgers"
-c = "e"
+c = "z"
 
 res = -1
 for i in range(len(s)):
