@@ -6,20 +6,21 @@ MSIS, Rutgers
 
 ---
 
-[1. Sets](#1.%20Sets)
-[2. Set Methods and Operations](#2.%20Set%20Methods%20and%20Operations)
-[3. Modifying a Set](#3.%20Modifying%20a%20Set)
-[4. Tuple](#4.%20Tuple)
-[5. Tuple assignment](#5.%20Tuple%20assignment)
-[6. Variable-length argument tuples](#6.%20Variable-length%20argument%20tuples)
-[7. Lists and tuples](#7.%20Lists%20and%20tuples)
-[8. Practice questions](#8.%20Practice%20questions)
-
+- [7 Set and Tuple](#7-set-and-tuple)
+	- [1. Sets](#1-sets)
+	- [2. Set Methods and Operations](#2-set-methods-and-operations)
+	- [3. Modifying a Set](#3-modifying-a-set)
+	- [4. Tuple](#4-tuple)
+	- [5. Tuple assignment](#5-tuple-assignment)
+	- [6. Variable-length argument tuples](#6-variable-length-argument-tuples)
+	- [7. Lists and tuples](#7-lists-and-tuples)
+	- [8. Practice questions](#8-practice-questions)
 
 ---
+
 ## 1. Sets
 ---
-### Defining sets
+**Defining sets**
 
 Sets are another collection/container, like lists, which contain multiple values. 
 - The **key differences** are
@@ -35,7 +36,7 @@ Sets are another collection/container, like lists, which contain multiple values
 
 ---
 
-### List and set
+**List and set**
 
 - Set and list are interchangeable. 
 ---
@@ -44,16 +45,16 @@ Sets are another collection/container, like lists, which contain multiple values
 
 ---
 
-### `add()` method
+`add()` method
 
 
-### `union()` method and `|` operator
+`union()` method and `|` operator
 
 
-### `intersetion()` method and `&` operator
+`intersetion()` method and `&` operator
 
 
-### `difference()` method and `-` operator
+`difference()` method and `-` operator
 
 ---
 ## 3. Modifying a Set
@@ -67,7 +68,7 @@ Sets are another collection/container, like lists, which contain multiple values
 ## 4. Tuple
 ---
 
-### Defining tuples
+**Defining tuples**
 
 ```python
 >>> t = 'a', 'b', 'c', 'd'
@@ -77,7 +78,7 @@ Sets are another collection/container, like lists, which contain multiple values
 
 
 ---
-### Slice operator
+**Slice operator**
 The slice operator selects a range of elements.
 ```python
 >>> t = ('a', 'b', 'c', 'd')
@@ -88,7 +89,7 @@ The slice operator selects a range of elements.
 ```
 
 ---
-### Tuples are immutable
+**Tuples are immutable**
 - Tuples are immutable, and you cannot modify the elements.
 ```python
 >>> t = ('a', 'b', 'c', 'd')
@@ -106,37 +107,35 @@ TypeError: 'tuple' object does not support item assignment
 ---
 ## 7. Lists and tuples
 
-### `zip()` function
+**`zip()` function**
 
-### `enumerate()` function
+**`enumerate()` function**
 
 ---
 ## 8. Practice questions
 
 ---
 1. We've provided you with a list of lottery players, and also with 4 random lottery numbers. The random lottery numbers are generated like this:
-```python
-import random
-lottery_numbers = set(random.sample(list(range(22)), 4))
-```
-And the list of players we've given you are:
-```python
-players = [
-("Rolf", {1, 3, 5, 7, 11, 20}),
-("Charlie", {2, 7, 9, 5, 12, 15}),
-("Anna", {7, 8, 1, 3, 13, 16}),
-("Jen", {4, 7, 3, 5, 12, 21})
-]
-```
+	```python
+	import random
+	lottery_numbers = set(random.sample(list(range(22)), 4))
+	```
+	And the list of players we've given you are:
+	```python
+	players = [
+		("Rolf", {1, 3, 5, 7, 11, 20}),
+		("Charlie", {2, 7, 9, 5, 12, 15}),
+		("Anna", {7, 8, 1, 3, 13, 16}),
+		("Jen", {4, 7, 3, 5, 12, 21})]
+	```
+	Try to find out the number of winnings for each person. For example, if the lottery number is  `6, 8, 9, 13, 16, 19`, you need to print:
 
-Try to find out the number of winnings for each person. For example, if the lottery number is  `6, 8, 9, 13, 16, 19`, you need to print:
-
-```python
-Rolf won 0.
-Charlie won 1.
-Anna has won 3.
-Jen has won 0.
-```
+	```python
+	Rolf won 0.
+	Charlie won 1.
+	Anna has won 3.
+	Jen has won 0.
+	```
 ---
 
 2. Try to create a function, which can take variable-length arguments and return the square root of the arguments.

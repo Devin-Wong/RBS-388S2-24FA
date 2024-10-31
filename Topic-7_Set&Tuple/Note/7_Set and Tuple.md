@@ -1,25 +1,26 @@
-# Set and Tuple
-Table of Contents
+# Topic 7: Set and Tuple
 
-[1. Sets](#1.%20Sets)  
-	[Defining sets](#Defining%20sets)  
-	[List and set](#List%20and%20set)  
-[2. Set Methods and Operations](#2.%20Set%20Methods%20and%20Operations)  
-	[`add()` method](#%60add()%60%20method)  
-	[`union()` method and `|` operator](#%60union()%60%20method%20and%20%60%7C%60%20operator)  
-	[`intersetion()` method and `&` operator](#%60intersetion()%60%20method%20and%20%60&%60%20operator)  
-	 [`difference()` method and `-` operator](#%60difference()%60%20method%20and%20%60-%60%20operator)  
-[3. Modifying a Set](#3.%20Modifying%20a%20Set)  
-[4. Tuple](#4.%20Tuple)  
-	 [Defining tuples](#Defining%20tuples)  
-	 [Slice operator](#Slice%20operator)  
-	 [Tuples are immutable](#Tuples%20are%20immutable)  
-[5. Tuple assignment](#5.%20Tuple%20assignment)  
-[6. Variable-length argument tuples](#6.%20Variable-length%20argument%20tuples)  
-[7. Lists and tuples](#7.%20Lists%20and%20tuples)  
-	[`zip()` function](#%60zip()%60%20function)  
-	 [`enumerate()` function](#%60enumerate()%60%20function)  
-[8. Practice questions](#8.%20Practice%20questions)  
+
+- [Topic 7: Set and Tuple](#topic-7-set-and-tuple)
+	- [1. Sets](#1-sets)
+		- [Defining sets](#defining-sets)
+		- [List and set](#list-and-set)
+	- [2. Set Methods and Operations](#2-set-methods-and-operations)
+		- [`add()` method](#add-method)
+		- [`union()` method and `|` operator](#union-method-and--operator)
+		- [`intersetion()` method and `&` operator](#intersetion-method-and--operator)
+		- [`difference()` method and `-` operator](#difference-method-and---operator)
+	- [3. Modifying a Set](#3-modifying-a-set)
+	- [4. Tuple](#4-tuple)
+		- [Defining tuples](#defining-tuples)
+		- [Slice operator](#slice-operator)
+		- [Tuples are immutable](#tuples-are-immutable)
+	- [5. Tuple assignment](#5-tuple-assignment)
+	- [6. Variable-length argument tuples](#6-variable-length-argument-tuples)
+	- [7. Lists and tuples](#7-lists-and-tuples)
+		- [`zip()` function](#zip-function)
+		- [`enumerate()` function](#enumerate-function)
+	- [8. Practice questions](#8-practice-questions)
 
 
 
