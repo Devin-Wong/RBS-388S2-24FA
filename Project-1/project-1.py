@@ -1,7 +1,7 @@
 # --- read a file to obatin a list of numbers ------
 import csv
 
-file_path = "project-1.csv"
+file_path = "project-1.csv" # You may change the path to your own.
 
 def read_file(file_path):
     with open(file_path, mode='r') as file:
@@ -14,7 +14,7 @@ def read_file(file_path):
     return list(map(float, spy)) 
     
 spy = read_file(file_path)
-# print(spy)
+print(spy)
 # ---------------------------------------------------
 
 
