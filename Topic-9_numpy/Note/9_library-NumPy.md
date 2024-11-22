@@ -203,6 +203,20 @@ Table of Contents
     38.5
     ```
 
+## Practice questions
+
+1. Given the following to lists, one includes the student names, another one includes the ages of the students. Try to get the students whose ages are greater than 20.
+    ```python
+    names = ['Jack', 'Mark', 'Mary', 'Jenny', 'April', 'Jin']
+    ages = [23, 18, 21, 19, 22, 19]
+    ```
+2. Given the following grades about homework, project, exam_1 and exam_2, and the weights for the three assignments are 20%, 20%, 30%, and 30%, try to calculate the percentage of A (>=90), B (<90 and >=80), C (<80 and >=70), D (<70 and >=60), and F(<60).
+    ```python
+    homework = [81, 83, 89, 98, 70, 71, 72, 91, 80, 61, 50]
+    project = [90, 92, 85, 82, 84, 86, 83, 79, 70, 81, 60]
+    exam_1 = [83, 70, 78, 90, 82, 88, 68, 59, 59, 75, 77]
+    exam_2 = [82, 73, 60, 65, 95, 88, 68, 59, 62, 75, 50]
+    ```
 
 ## References
 - https://numpy.org/doc/stable/user/absolute_beginners.html
