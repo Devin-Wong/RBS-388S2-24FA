@@ -161,6 +161,6 @@ for i in range(3):
 	2. Create a function named `get_sum` taking a number $n$ and returning the sum of 1 to  $n$.
 	3. Create a `main` function which calls the two functions above to calculate the sum of 1 to $n$.
 ---
-3. Create a function taking a list, which can print the even indices values, i.e., the 2nd value, 4th value, 6th value, ... . For example, given a list `x = ['a', 'b', 'c', 'd']`, the output should print 'b' and 'd'. (try to use `continue` in the loop)
+1. Create a function taking a list, which can print out the 2nd value, 4th value, 6th value, ... . For example, given a list `x = ['a', 'b', 'c', 'd']`, the output should print 'b' and 'd'. (try to use `continue` in the loop)
 ---
-4. Given a list of numbers, try to print the numbers starting with the first one and stop when the sum of the numbers collected is larger than 100.
+1. Given a list of numbers, try to print the numbers starting with the first one and stop when the sum of the numbers collected is larger than 100.

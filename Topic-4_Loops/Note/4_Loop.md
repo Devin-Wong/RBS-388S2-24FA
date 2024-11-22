@@ -257,7 +257,7 @@ Table of contents
 
 1. Create a function named `get_maximum` taking a list of numbers, which can return the maximum number in the list.
 
-2. Create a function taking a list, which can print the even indices values, i.e., the 2nd value, 4th value, 6th value, ... . For example, given a list `x = ['a', 'b', 'c', 'd']`, the output should print 'b' and 'd'. (try to use `continue` in the loop)
+2. Create a function taking a list, which can print out the 2nd value, 4th value, 6th value, ... . For example, given a list `x = ['a', 'b', 'c', 'd']`, the output should print 'b' and 'd'. (try to use `continue` in the loop)
 
 3. Calculate the sum of  1 to $n$.
 	- Create a function named `get_number` which returns a positive number. In the function you use `input` function to let user input a positive integer. If user inputs a negative number, reprompt the user with "Please input a positive number: " .
