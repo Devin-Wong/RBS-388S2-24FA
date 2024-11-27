@@ -205,12 +205,16 @@ Table of Contents
 
 ## Practice questions
 
-1. Given the following to lists, one includes the student names, another one includes the ages of the students. Try to get the students whose ages are greater than 20.
+1. Counting. Given a list, try to get the number of positive numbers.
+
+2. Calculate the area of a circle, given a list of values of radius. 
+
+3. Given the following to lists, one includes the student names, another one includes the ages of the students. Try to get the students whose ages are greater than 20.
     ```python
     names = ['Jack', 'Mark', 'Mary', 'Jenny', 'April', 'Jin']
     ages = [23, 18, 21, 19, 22, 19]
     ```
-2. Given the following grades about homework, project, exam_1 and exam_2, and the weights for the three assignments are 20%, 20%, 30%, and 30%, try to calculate the percentage of A (>=90), B (<90 and >=80), C (<80 and >=70), D (<70 and >=60), and F(<60).
+4. Given the following grades about homework, project, exam_1 and exam_2, and the weights for the three assignments are 20%, 20%, 30%, and 30%, try to calculate the percentage of A (>=90), B (<90 and >=80), C (<80 and >=70), D (<70 and >=60), and F(<60).
     ```python
     homework = [81, 83, 89, 98, 70, 71, 72, 91, 80, 61, 50]
     project = [90, 92, 85, 82, 84, 86, 83, 79, 70, 81, 60]
