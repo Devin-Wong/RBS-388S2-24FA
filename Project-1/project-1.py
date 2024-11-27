@@ -65,7 +65,7 @@ print(f"B-II: The number of rising days in the 5-day moving averages: {num_risin
 
 # III. (8 pts) How many days did the 5-day moving averages rise last at most?
 days_riselast_ma5 = func_riselast(ma_5)
-print(f"B-II: The days the 5-day moving averages rise lasted at most: {days_riselast_ma5}")
+print(f"B-III: The days the 5-day moving averages rise lasted at most: {days_riselast_ma5}")
 
 # IV. (5 pts) How many days were the SPY closing prices lower than the 5-day moving averages.
 def fun_compare(l1, l2):
